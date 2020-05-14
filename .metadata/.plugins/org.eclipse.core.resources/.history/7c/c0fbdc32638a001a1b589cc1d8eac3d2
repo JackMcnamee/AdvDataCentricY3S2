@@ -1,0 +1,14 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+.submitLink {
+  background-color: transparent;
+  text-decoration: underline;
+  border: none;
+  color: blue;
+  cursor: pointer;
+}
+submitLink:focus {
+  outline: none;
+}

@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Quantity too large</title>
+</head>
+<body>
+<h1>Error Creating the Following Order</h1>
+<tr>
+<c:forEach items="${customers}" 
+                 var="customer">
+<h2>Quantity too large: Product stock = ${product. }</h2>
+</c:forEach>
+</tr>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spring Security Example </title>
+    </head>
+    <body>
+    	<h1>Login with Username and Password</h1>
+        <form action="@{/login}" method="post">
+            <div><label> User: <input type="text" name="username"/> </label></div>
+            <div><label> Password: <input type="password" name="password"/> </label></div>
+            <div><input type="submit" value="Login"/></div>
+        </form>
+    </body>
+</html>
